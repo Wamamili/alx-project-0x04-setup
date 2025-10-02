@@ -1,6 +1,4 @@
-## components/common/Button.tsx
-
-interface ButtonProps {
+  interface ButtonProps {
   buttonLabel: string
   buttonSize?: string
   buttonBackgroundColor?: 'red' | 'blue' | 'orange' | 'green'
