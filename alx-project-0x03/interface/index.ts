@@ -1,0 +1,19 @@
+// Remove from pages/index.tsx
+export interface PageRouteProps {
+  pageRoute: string;
+}
+
+export interface ButtonProps {
+  buttonLabel: string
+  buttonSize?: string
+  buttonBackgroundColor?: 'red' | 'blue' | 'orange' | 'green'
+  action?: () => void
+}
+
+export interface PageRouteProps {
+  pageRoute: string;
+}
+export interface LayoutProps {
+  children: ReactNode;
+}
+import { ReactNode } from "react";
